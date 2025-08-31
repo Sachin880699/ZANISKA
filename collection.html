@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Zaniska Jewelry - Premium Luxury</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Playfair Display', serif; background-color: #000; color: #fff; }
+    .gold { color: #D4AF37; }
+    .btn-gold { background-color: #D4AF37; color: #000; border-radius: 50px; padding: 10px 30px; font-weight: bold; transition: 0.3s; }
+    .btn-gold:hover { opacity: 0.85; }
+    .section-padding { padding: 80px 0; }
+    .product-card { background-color: #111; border: 2px solid #D4AF37; border-radius: 20px; padding: 25px; transition: transform 0.3s; }
+    .product-card:hover { transform: scale(1.05); }
+    .product-card img { border-radius: 15px; }
+    .filter-btn { border: 1px solid #D4AF37; border-radius: 50px; color: #D4AF37; background: transparent; padding: 5px 15px; margin: 2px; transition: 0.3s; }
+    .filter-btn:hover, .filter-btn.active { background-color: #D4AF37; color: #000; }
+    .hero-section { position: relative; height: 40vh; background: url('https://via.placeholder.com/1600x600') center/cover no-repeat; display: flex; justify-content: center; align-items: center; text-align: center; }
+    .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); }
+    .hero-content { z-index: 2; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+    <div class="container">
+      <a class="navbar-brand gold fs-3" href="index.html">ZANISKA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-light" href="collection.html">Collection</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Shop Hero -->
+  <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content text-white">
+      <h1 class="display-3 gold mb-3">Shop Collection</h1>
+      <p class="lead mb-4">Discover Premium Jewelry Pieces</p>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="section-padding text-center">
+    <div class="container">
+      <div class="d-flex justify-content-center flex-wrap mb-5">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Necklaces</button>
+        <button class="filter-btn">Earrings</button>
+        <button class="filter-btn">Rings</button>
+        <button class="filter-btn">Bracelets</button>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="https://via.placeholder.com/300x300" alt="Necklace 1" class="img-fluid mb-3">
+            <h5>Elegant Necklace 1</h5>
+            <p class="text-secondary">Premium crafted, limited edition.</p>
+            <a href="#" class="btn btn-gold">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="https://via.placeholder.com/300x300" alt="Earrings 1" class="img-fluid mb-3">
+            <h5>Luxury Earrings 1</h5>
+            <p class="text-secondary">Exclusive design, handcrafted.</p>
+            <a href="#" class="btn btn-gold">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="https://via.placeholder.com/300x300" alt="Ring 1" class="img-fluid mb-3">
+            <h5>Signature Ring 1</h5>
+            <p class="text-secondary">Limited edition, high quality.</p>
+            <a href="#" class="btn btn-gold">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="https://via.placeholder.com/300x300" alt="Bracelet 1" class="img-fluid mb-3">
+            <h5>Luxury Bracelet 1</h5>
+            <p class="text-secondary">Exquisite rare design.</p>
+            <a href="#" class="btn btn-gold">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="https://via.placeholder.com/300x300" alt="Bracelet 1" class="img-fluid mb-3">
+            <h5>Luxury Bracelet 1</h5>
+            <p class="text-secondary">Exquisite rare design.</p>
+            <a href="#" class="btn btn-gold">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 border-top border-secondary bg-black">
+    <p class="text-secondary mb-0">© 2025 ZANISKA. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
